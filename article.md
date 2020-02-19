@@ -2,23 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link href="style.css" ref="stylesheet" />
     <title>Voice of America</title>
   </head>
 
   <body>
+  <header>
     <h1>Voice of America</h1>
     <form>
       <input type="search" placeholder="Search..."/>
       <input type="submit" value="Submit"/>
     </form>
-    <ul>
-      <li>Home</li>
-      <li>World</li>
-      <li>Silicon Valley &amp; Tech</li>
-      <li>Science &amp; Health</li>
-      <li>U.S. Politics</li>
-    </ul>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>World</li>
+        <li>Silicon Valley &amp; Tech</li>
+        <li>Science &amp; Health</li>
+        <li>U.S. Politics</li>
+      </ul>
+    </nav> 
+  </header>
+  <main>
     <h2>Silicon Valley &amp; Technology</h2>
+  <article>
    <h3>Google Chromebooks on the Rise</h3>
     <img src="600.png" alt="Google Chromebooks" />
     <p>A Google Chromebook on display in New York, Feb. 8, 2017. <em>Photo: Google</em>.
@@ -27,18 +34,25 @@
     <p>In retrospect, that shouldn't be too surprising. Chromebooks are cheap and easy to manage, making them popular with budget-constrained schools with limited tech-support staff. And Wi-Fi is now common enough in U.S. schools and homes to make an internet-dependent device practical for students.</p>
     <p>Google doesn't want to stop there. It's releasing new models in partnership with Samsung that are designed to appeal to a broader range of consumers. They have several tablet-like features, including a stylus, touch controls and a 360-degree hinge that allows you to turn the screen faceup. One starts selling Sunday for $449; a more powerful version comes out in April for $100 more.</p>
     <p>Google and its manufacturing partners are trying to shed the Chromebook's perception as underperforming budget devices. But even with premium models, expanding beyond U.S. schools won't be easy.</p>
+  <aside> 
     <h4>More Silicon Valley &amp; Tech News</h4>
     <ul>
       <li>Tehran Bans Drones After Security Scares</li>
       <li>Google Makes Internet Balloon ‘Breakthrough’</li>
       <li>Zuckerberg's Goal: Remake а World Facebook Helped Create</li>
     </ul>
+    </aside>
+    </article>
+    <section>
     <h4>Blogs</h4>
     <h5>Techtonics</h5>
     <ul>
       <li>Tech Goes to Work to Help Europe's Refugees Assimilate</li>
       <li>Olive Oil Key to a Healthy Heart</li>
     </ul>
+    </section>
+      </main>
+  <footer>
     <h2>Other ways to access VOA</h2>
     <ul>
       <li>Get our newsletter</li>
@@ -66,7 +80,9 @@
       <li>Middle East</li>
       <li>Americas</li>
     </ul>
-    <p><small>Voice of America Address: 330 Independence Avenue, S.W., Washington, D.C. 20237</small></p>
-
+    <p>
+      <small>Voice of America Address: 330 Independence Avenue, S.W., Washington, D.C. 20237</small>
+    </p>
+  </footer>
   </body>
 </html>
